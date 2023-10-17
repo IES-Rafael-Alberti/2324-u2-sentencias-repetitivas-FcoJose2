@@ -14,4 +14,4 @@ if __name__ == "__main__":
     tiempo = int(input("Introduce durante cuantos años se va a invertir: "))
 
     cantidad = inversion(cantidad, interes, tiempo)
-    print("Capital final después de " + str(tiempo) + "años: " + str(round(cantidad, 2)))
+    print("Capital final después de " + str(tiempo) + " años: " + str(round(cantidad, 2)))
