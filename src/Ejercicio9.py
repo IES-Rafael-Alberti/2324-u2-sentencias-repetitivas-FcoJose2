@@ -3,8 +3,6 @@
 def comprobarContra(contraseña):
     while not (contraseña == "Prueba"):
         contraseña = input("Incorrecto. Vuelva a intentarlo: ")
-        inc = "Incorrecto"
-        return inc
     resultado = "Correcto"
     return resultado
 
