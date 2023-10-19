@@ -9,7 +9,10 @@ def contarLetras(frase, letra):
 
 
 if __name__ == "__main__":
+    #Entrada
     frase = input("Introduzca una frase: ")
     letra = input("Introduzca una letra: ")
+    #Proceso
     contador = contarLetras(frase, letra)
+    #Salida
     print(contador)

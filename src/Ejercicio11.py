@@ -5,5 +5,7 @@ def inverso(palabra):
         print(palabra[i])
     
 if __name__ == "__main__":
+    #Entrada
     palabra = input("Introduce una palabra: ")
+
     inverso(palabra)

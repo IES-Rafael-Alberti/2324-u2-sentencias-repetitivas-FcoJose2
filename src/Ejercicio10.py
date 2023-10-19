@@ -9,8 +9,11 @@ def primoOno(numero):
     return primo
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduzca un numero: "))
+    #Proceso
     primo = primoOno(numero)
+    #Salida
     if primo == False:
         print("No es primo.")
     else:

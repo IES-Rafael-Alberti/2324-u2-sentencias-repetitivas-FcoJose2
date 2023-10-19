@@ -17,7 +17,10 @@ def escaleraNumeros(numero):
     return impar
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero: "))
+    #Proceso
     resultado = escaleraNumeros(numero)
+    #Salida
     print(resultado)
 

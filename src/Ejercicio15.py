@@ -13,7 +13,10 @@ def sumatorioPositivo(numero, suma):
     return suma
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero positivo: "))
     suma = 0
+    #Proceso
     resultado = sumatorioPositivo(numero, suma)
+    #Salida
     print(resultado)

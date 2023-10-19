@@ -5,10 +5,13 @@ def numeroMaximo(numero):
     while numero != 0:
         lista.append(numero)
         numero = int(input("Introduce un numero positivo: "))
-    return lista
+    return max(lista)
 
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero positivo: "))
+    #Proceso
     resultado = numeroMaximo(numero)
-    print(max(resultado))
+    #Salida
+    print(resultado)

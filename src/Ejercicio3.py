@@ -7,6 +7,9 @@ def numerosImpar(numero):
     return impar
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero: "))
+    #Proceso
     resultado = numerosImpar(numero)
+    #Salida
     print(resultado)

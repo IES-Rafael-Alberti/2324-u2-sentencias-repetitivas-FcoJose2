@@ -8,6 +8,9 @@ def comprobarContra(contraseña):
 
 
 if __name__ == "__main__":
+    #Entrada
     contraseña = input("Introduzca su contraseña: ")
+    #Proceso
     resultado = comprobarContra(contraseña)
+    #Salida
     print(resultado)

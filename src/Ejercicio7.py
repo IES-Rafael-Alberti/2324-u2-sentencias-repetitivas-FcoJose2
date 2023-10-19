@@ -10,5 +10,9 @@ def tabla110():
 
 
 if __name__ == "__main__":
+    #Entrada
+
+    #Proceso
     resultado = tabla110()
+    #Salida
     print(resultado)

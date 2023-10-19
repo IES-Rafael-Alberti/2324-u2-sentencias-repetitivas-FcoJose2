@@ -7,6 +7,9 @@ def escalera(escalones):
     return escalera
     
 if __name__ == "__main__":
+    #Entrada
     escalones = int(input("Cuantos escalones tendrá el triangulo rectangulo: "))
+    #Proceso
     resultado = escalera(escalones)
+    #Salida
     print(resultado)

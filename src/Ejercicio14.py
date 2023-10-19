@@ -3,14 +3,18 @@
 def sumatorio(numero, suma):
     suma = 0
     while numero != 0:
+
         suma = suma + numero
         numero = int(input("Introduzca un numero: "))
         
     return suma
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero: "))
     suma = 0
+    #Proceso
     resultado = sumatorio(numero, suma)
+    #Salida
     print(resultado)
 

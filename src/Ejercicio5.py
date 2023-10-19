@@ -9,9 +9,11 @@ def inversion(cantidad, interes, tiempo):
 
 
 if __name__ == "__main__":
+    #Entrada
     cantidad = float(input("Introduce la inversión inicial: "))
     interes = float(input("Introduce el interes: "))
     tiempo = int(input("Introduce durante cuantos años se va a invertir: "))
-
+    #Proceso
     cantidad = inversion(cantidad, interes, tiempo)
+    #Salida
     print("Capital final después de " + str(tiempo) + " años: " + str(round(cantidad, 2)))

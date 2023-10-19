@@ -8,6 +8,9 @@ def repetir(palabra):
 
 
 if __name__ == "__main__":
+    #Entrada
     palabra = input("Escribe una palabra: ")
+    #Proceso
     resultado = repetir(palabra)
+    #Salida
     print(resultado)

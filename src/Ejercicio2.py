@@ -11,6 +11,9 @@ def añoscumplidos(edad):
 
 
 if __name__ == "__main__":
+    #Entrada
     edad = int(input("Introduzca su edad: "))
+    #Proceso
     años = añoscumplidos(edad)
+    #Salida
     print(str(años))

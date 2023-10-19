@@ -8,6 +8,9 @@ def cuentaAtras(numero):
 
 
 if __name__ == "__main__":
+    #Entrada
     numero = int(input("Introduce un numero: "))
+    #Proceso
     resultado = cuentaAtras(numero)
+    #Salida
     print(resultado)
