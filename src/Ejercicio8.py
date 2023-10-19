@@ -10,8 +10,10 @@ def escaleraNumeros(numero):
     impar = ""
     for i in range(1, numero+1, 2):
         for j in range(i, 0, -2):
-            print(j, end=" ")
-        print(" ")
+#           print(j, end=" ")
+            impar += str(j)
+#        print(" ")
+        impar += "\n"
     return impar
 
 if __name__ == "__main__":

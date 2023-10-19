@@ -9,7 +9,5 @@ def repetir(palabra):
 
 if __name__ == "__main__":
     palabra = input("Escribe una palabra: ")
-    repetir(palabra)
-
     resultado = repetir(palabra)
     print(resultado)
