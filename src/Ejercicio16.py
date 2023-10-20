@@ -4,17 +4,28 @@ lista = []
 def pedirListaDeNumeros() -> list:
     numero = -1
     while numero != 0:
-        numero = int(input("Introduce un numero positivo: "))
-        if numero.isDigit() and numero > 0:
-            lista.append(numero)
+        try:
+            numero = int(input("Introduce un numero positivo (0 para terminar): "))
+            if numero > 0:
+                lista.append(numero)
+            elif numero < 0:
+                print("Introduce un número positivo.")
+        except ValueError:
+            print("Introduce un número válido.")
     return lista
 
 
 def obtenerNumeroMaximo(lista:list) -> int:
-    return 0
+    maximo = lista[0]
+    for numero in lista:
+        if numero > maximo:
+            maximo = numero
 
-def construirMensaje(numero: int) -> str:
-    return ""
+    return maximo
+
+
+def construirMensaje(maximo: int) -> str:
+    return "El numero mas alto de la lista es " + str(maximo)
 
 
 if __name__ == "__main__":
